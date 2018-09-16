@@ -1,0 +1,1 @@
+<?php	define('FIREPHP_LEVEL_LOG',		0);	define('FIREPHP_LEVEL_INFO',	1);	define('FIREPHP_LEVEL_WARN',	2);	define('FIREPHP_LEVEL_ERROR',	3);	?>

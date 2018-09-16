@@ -1,0 +1,345 @@
+* {
+	font-size: 12px;
+}
+body {
+	font-size: 12px;
+	margin: 1px;
+	padding: 0;
+}
+#headerMenubar a.l-btn-plain {
+	background-color: #EFEFEF;
+	font-weight: bold;
+}
+#headerMenubar a.l-btn-plain:hover {
+	color: #FCBBCA;
+	background-color: #FEFEFE;
+}
+#NavMenuTree .tree-node {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+#NavMenuTree .tree-node-selected {
+	background: #8F8F8F;
+}
+#NavMenuTree .tree-node-hover {
+	
+}
+#headerUserPanel {
+	margin-right: 10px;
+	color: #FFFFFF;
+	float: right;
+}
+a.my-navtitle {
+	color: #777777;
+	text-decoration: none;
+}
+a.my-navtitle:hover {
+	color: #FCBBCA;
+}
+.menu-selected {
+	background-color: #0081C2 !important;
+	color: #FFFFFF !important;
+	font-weight: bold !important;
+}
+.container {
+	width: 100%;
+	text-align: center;
+	margin: 10px auto 10px;
+}
+.contain-body {
+	width: 98%;
+	margin: 0 auto;
+}
+
+.my-ui-hidden {
+	display: none;
+}
+
+#FormAdd div.panel-body {
+	text-align: center;
+}
+#FormAdd div.panel-body div {
+	margin: 5px auto;
+	vertical-align: middle;
+}
+#FormAdd div.panel-body div span {
+	font-weight: bold;
+}
+
+#logoPreiew {
+	text-align: center;
+}
+#logoPreiew img {
+	display: block;
+	border: 0;
+	max-width: 100px;
+	max-height: 120px;
+	margin: auto;
+}
+.picbox {
+	float: left;
+	width: 100px;
+	height: 120px;
+	background: #FEFEFE;
+}
+.picbox img {
+	max-width: 80px;
+	max-height: 100px;
+}
+#wp-contain {
+	height: 250px;
+	overflow-y: scroll;
+}
+#wp-contain .wp-box {
+	width: 180px;
+	height: 135px;
+	text-align: center;
+	float: left;
+	margin-top: 5px;
+	background: #FEFEFE;
+}
+#wp-contain .wp-box:hover {
+	background: #DBDBEA;
+}
+#wp-contain .wp-box img {
+	max-width: 180px;
+	max-height: 135px;
+	display: block;
+	margin: auto;
+}
+.impreview {
+	width: 98%;
+	text-align: center;
+}
+.impreview .imglogo {
+	max-width: 307px;
+	max-height: 137px;
+	display: block;
+	margin: auto;
+}
+.impreview .imgshow {
+	max-width: 550px;
+	max-height: 177px;
+	display: block;
+	margin: auto;
+}
+div#software {
+	display: none;
+	height: 460px;
+	overflow-y: scroll;
+	display: none;
+	padding: 10px;
+}
+/**
+ * tables
+ */
+.my-x-form-table {
+	font-size: 12px;
+	color: #242415;
+	vertical-align: middle;
+}
+.my-x-form-table tr {
+	line-height: 25px;
+}
+.my-x-form-table th {
+	font-weight: normal;
+	text-align: right;
+	padding-right: 8px;
+	border-bottom: 1px solid #E3E3EF;
+}
+.my-x-form-table td {
+	border-bottom: 1px solid #E3E3EF;
+}
+.my-x-form-table .bl {
+	border-left: 1px solid #E3E3EF;
+}
+.my-x-form-table .bc {
+	border-left: 1px solid #E3E3EF;
+	border-right: 1px solid #E3E3EF;
+}
+.my-x-form-table .br {
+	border-right: 1px solid #E3E3EF;
+}
+.my-x-form-table input, .my-x-form-table select {
+	border: 1px solid #D4D4D4;
+}
+
+/**
+ * File Explorer
+ */
+.explorer-new-panel {
+	height: 70px;
+	padding: 5px;
+	display: none;
+	color: #FFFFFF;
+	font-size: 12px;
+	margin: 2px auto 8px;
+	background: #464637;
+}
+.explorer-new-panel div {
+	line-height: 22px;
+}
+.explorer-new-panel input {
+	border: 1px solid #D4D4D4;
+	height: 18px;
+	width: 100px;
+	padding: 0;
+}
+.explorer-new-panel button {
+	border: 1px solid #D4D4D4;
+	font-size: 12px;
+	background: #FFFFFF;
+	padding: 0px auto 3px;
+	margin-left: 10px;
+}
+
+.explorer-file-box {
+	background-color: #ECECFB;
+	margin: 2px;
+	float: left;
+	width: 100px;
+	height: 135px;
+	text-align: center;
+	cursor: pointer;
+}
+.explorer-file-box:hover {
+	background-color: #DBDBEA;
+}
+.explorer-file-nocheck {
+	background-image: url(/images/check-no.png);
+	background-repeat: no-repeat;
+}
+.explorer-file-checked {
+	background-image: url(/images/check-yes.png);
+	background-repeat: no-repeat;
+}
+.explorer-file-box div.imgbox {
+	width: 80px;
+	height: 80px;
+	background: #FFFFFF;
+	margin: 8px auto 2px;
+}
+.explorer-file-box div.imgbox img {
+	max-width: 80px;
+	max-height: 80px;
+	border: 1px solid #EFEFEF;
+}
+.explorer-file-box div.file  {
+	margin-top: 5px;
+}
+#EXPNAVBAR {
+	padding: 5px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 5px;
+}
+
+/**
+ * ViewProp
+ */
+.ViewProp {
+
+}
+.ViewProp .txtfield {
+	width: 691px;
+}
+.ViewProp div.preview {
+	height: 189px;
+}
+
+/**
+ * ICONS
+ */
+.my-icon-moveup {
+	background:url('/images/icons/up.png') no-repeat center center;
+}
+.my-icon-movedown {
+	background:url('/images/icons/dwon.png') no-repeat center center;
+}
+.my-icon-select-all {
+	background:url('/images/icons/check-64.png') no-repeat center center;
+}
+.my-icon-select-other {
+	background:url('/images/icons/radio-button_off.png') no-repeat center center;
+}
+.my-icon-unselect {
+	background:url('/images/icons/help_ring-buoy.png') no-repeat center center;
+}
+.my-icon-ok {
+	background:url('/images/icons/check.png') no-repeat center center;
+}
+.my-icon-user {
+	background:url('/images/icons/user_friend.png') no-repeat center center;
+}
+.my-icon-user-passwd {
+	background:url('/images/icons/key_login.png') no-repeat center center;
+}
+.my-icon-user-manage {
+	background:url('/images/icons/user_friend.png') no-repeat center center;
+}
+.my-icon-user-group {
+	background:url('/images/icons/friends_group.png') no-repeat center center;
+}
+.my-icon-category {
+	background:url('/images/icons/shopping_cart_empty.png') no-repeat center center;
+}
+.my-icon-cat-software {
+	background:url('/images/icons/pie-chart_diagram.png') no-repeat center center;
+}
+.my-icon-cat-game {
+	background:url('/images/icons/bug.png') no-repeat center center;
+}
+.my-icon-cat-music {
+	background:url('/images/icons/cd_dvd.png') no-repeat center center;
+}
+.my-icon-cat-wallpaper {
+	background:url('/images/icons/stop.png') no-repeat center center;
+}
+.my-icon-cat-ebook {
+	background:url('/images/icons/pie-chart_graph.png') no-repeat center center;
+}
+.my-icon-resource {
+	background:url('/images/icons/base.png') no-repeat center center;
+}
+.my-icon-rc-software {
+	background:url('/images/icons/pie-chart_diagram.png') no-repeat center center;
+}
+.my-icon-rc-game {
+	background:url('/images/icons/bug.png') no-repeat center center;
+}
+.my-icon-rc-music {
+	background:url('/images/icons/cd_dvd.png') no-repeat center center;
+}
+.my-icon-rc-wallpaper {
+	background:url('/images/icons/stop.png') no-repeat center center;
+}
+.my-icon-setting {
+	background:url('/images/icons/options_2.png') no-repeat center center;
+}
+.my-icon-setting-thread {
+	background:url('/images/icons/bonus.png') no-repeat center center;
+}
+.my-icon-setting-keywords {
+	background:url('/images/icons/flag_mark_gray.png') no-repeat center center;
+}
+.my-icon-setting-rbimg {
+	background:url('/images/icons/home.png') no-repeat center center;
+}
+.my-icon-menu {
+	background:url('/images/icons/flag_mark_yellow.png') no-repeat center center;
+}
+
+.my-icon-tab-app-prop {
+	background:url('/images/icons/options.png') no-repeat center center;
+}
+.my-icon-tab-app-desc {
+	background:url('/images/icons/smartphone_iphone.png') no-repeat center center;
+}
+.my-icon-tab-app-update {
+	background:url('/images/icons/information.png') no-repeat center center;
+}
+.my-icon-tab-app-picture {
+	background:url('/images/icons/stop.png') no-repeat center center;
+}
+.my-icon-tab-app-download {
+	background:url('/images/icons/star.png') no-repeat center center;
+}

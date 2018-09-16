@@ -1,7 +1,19 @@
 <?php
 
+	namespace ZQFramework\Core;
 	require('../bootstrap.php');
 	
-	Application::getInstance()->init()->exec();
+	try
+	{
+		Application::getInstance()->startup();
+	}
+	catch (ZQException $ex)
+	{
+		$ex->displayErrorPage();
+	}
+	catch (Exception $ex)
+	{
+		echo $ex->getMessage();
+	}
 
 ?>
